@@ -74,7 +74,6 @@ export class OpenAIAdapter implements ProviderAdapter {
           "dataset_api is required to prepare the file from API."
         );
       }
-      // let's use axios to fetch the dataset from the API
       const response = await fetch(params.dataset_api, {
         headers: {
           "Content-Type": "application/json",
