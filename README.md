@@ -27,7 +27,7 @@ This library helps you train your own custom AI models (like GPT-4) using your d
 ### Example (in code):
 
 ```ts
-import { createFineTuneJob } from "finetune-model-lib";
+import { createFineTuneJob } from "finetune-kit";
 
 const job = await createFineTuneJob({
   provider: "openai",
